@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Button } from "./components";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Buttons</h1>
+      <Button title="Primary" variant="primary" />
+      <br />
+      <Button title="Secondary" />
+      <br />
+      <Button title="Black" variant="black" />
+      <br />
+      <Button title="Outline" type="outline" />
+      <br />
+      <Button title="Rounded" rounded />
+      <br />
+      <Button title="Clear" type="clear" />
     </div>
   );
-}
+};
 
 export default App;
