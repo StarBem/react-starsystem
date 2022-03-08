@@ -1,4 +1,4 @@
-import React, { useCallback, ButtonHTMLAttributes } from "react";
+import React, { useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { renderNode, StarFunctionComponent } from "../../helpers";

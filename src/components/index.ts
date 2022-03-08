@@ -1,5 +1,6 @@
 import Button, { ButtonProps } from "./common/Button";
 import Input, { InputProps } from "./common/Input";
+import Layout, { LayoutProps } from "./common/Layout";
 
 import {
   Colors,
@@ -16,13 +17,13 @@ import {
 } from "./config";
 
 // Export Components
-export { Button, Input };
+export { Button, Input, Layout };
 
 // Export Theme utils
 export { colors, ThemeProvider, ThemeConsumer, ThemeContext, withTheme };
 
 // Components Props Exports
-export type { ButtonProps, InputProps, Colors };
+export type { ButtonProps, InputProps, LayoutProps, Colors };
 
 // Theme Props Exports
 export type { FullTheme, ReplaceTheme, Theme, ThemeProps, UpdateTheme };
