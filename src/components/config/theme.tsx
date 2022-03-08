@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { ButtonProps } from "../Button";
+import { ButtonProps } from "../common/Button";
 
 import colors, { Colors } from "./colors";
 

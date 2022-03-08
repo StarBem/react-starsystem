@@ -1,4 +1,4 @@
-import { withTheme } from "../config";
+import { withTheme } from "../../config";
 import { Button, ButtonProps } from "./Button";
 
 export { Button };
