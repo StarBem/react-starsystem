@@ -1,4 +1,5 @@
 export interface Colors {
+  readonly bg: string;
   readonly primary: string;
   readonly primaryLight: string;
   readonly secondary: string;
@@ -21,6 +22,7 @@ export interface Colors {
 }
 
 const colors: Colors = {
+  bg: "#F1F5F8",
   primary: "#FF6B19",
   primaryLight: "#FF9B00",
   secondary: "#FF3F72",
